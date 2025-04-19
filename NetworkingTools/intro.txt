@@ -1,0 +1,13 @@
+This chapter will contain some basis of Python Networking using the socket module.
+I'll build clients, servers , and a TCP proxy which I'll turn them into my own netcat, complete with a command shell
+
+The Socket module 
+
+the are third--party tools to create networked servers and clients in Python, but the core module of all is the socket module
+
+this module exposes all the ncessary pieces to quickly write TCP and UDP clients and server,
+use raw sockets and so forth
+
+for purpose of breaking in or maintaining access to target machines, this module is all we need.
+
+Enough of talking - Let's start by creating two simple clients and server
